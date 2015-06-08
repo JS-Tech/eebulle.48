@@ -6,7 +6,7 @@ html {
   -o-background-size: cover;
   background-size: cover; }
 
-body {
+#container {
   text-align: center;
   font-size: 2em;
   color: #ffeed1;
@@ -18,3 +18,12 @@ body {
   top: 40%;
   bottom: auto;
   transform: translateX(-50%) translateY(-50%); }
+
+.img {
+  position: absolute;
+  bottom: 10px;
+  left: 50%;
+  transform: translateX(-50%); }
+  .img img {
+    height: 50px;
+    padding: 0 10px; }

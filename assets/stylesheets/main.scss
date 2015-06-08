@@ -9,7 +9,7 @@ html {
 	background-size: cover;
 }
 
-body {
+#container {
 	text-align: center;
 	font-size: 2em;
 	color: rgb(255, 238, 209);
@@ -21,4 +21,15 @@ body {
 	top: 40%;
 	bottom: auto;
 	transform: translateX(-50%) translateY(-50%);
+}
+
+.img {
+	position: absolute;
+	bottom: 10px;
+	left: 50%;
+	transform: translateX(-50%);
+	img {
+		height: 50px;
+		padding: 0 10px;
+	}
 }
