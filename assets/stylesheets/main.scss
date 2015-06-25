@@ -1,26 +1,54 @@
+// out: application.css
 @import '_var.scss';
-@import url(http://fonts.googleapis.com/css?family=Playfair+Display:400,700,900);
+@import 'Metroline.css';
+@import 'sections.css';
 
-html {
-	background: url(../images/bg1.jpg) no-repeat center center fixed; 
-	-webkit-background-size: cover;
-	-moz-background-size: cover;
-	-o-background-size: cover;
-	background-size: cover;
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	text-decoration: none;
 }
 
-#container {
+ul,li {
+	list-style-type: none;
+}
+
+@font-face {
+	font-family: 'gentleman-800';
+	src: url(../fonts/gentleman-800-bold-webfont.woff),
+			 url(../fonts/gentleman-800-bold-webfont.woff2),
+	     url(../fonts/gentleman-800-bold-webfont.ttf);
+}
+
+@font-face {
+	font-family: 'gentleman-600';
+	src: url(../fonts/gentleman-600-regular-webfont.woff),
+			 url(../fonts/gentleman-600-regular-webfont.woff2),
+	     url(../fonts/gentleman-600-regular-webfont.ttf);
+}
+
+body, html {
+	font-family: 'gentleman-600';
+	height: 100%;
+}
+
+body {
+	padding: 0 0 0 40px;
+  min-width: 760px;
+}
+
+h1 {
 	text-align: center;
-	font-size: 2em;
-	color: rgb(255, 238, 209);
-	text-shadow: 1px 2px 0 #666767;
-	font-family: 'Playfair Display', serif;
-	position: absolute;
-	left: 50%;
-	right: auto;
-	top: 40%;
-	bottom: auto;
-	transform: translateX(-50%) translateY(-50%);
+}
+
+h1,h2,h3,h4,h5,h6 {
+  line-height: 4em;
+}
+
+p {
+  padding-bottom: 1em;
+  font-weight: 100;
 }
 
 .img {

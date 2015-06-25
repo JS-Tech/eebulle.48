@@ -4,15 +4,45 @@
 		<title>48 heures de louanges à Bulle</title>
 		<meta charset="utf-8" />
 		<link rel="stylesheet" type="text/css" href="assets/stylesheets/application.css">
+		<script src="assets/javascripts/jquery-2.1.4.min.js"></script>
+		<script src="assets/javascripts/metroline-0.0.2.min.js"></script>
 	</head>
 	<body>
-		<div id="container">
-			<h1>48 Heures de louange et prière</h1>
-			<p>Bulle - 16,17,18 octobre</p>
+		<section class="fixed f1" id="48heures" data-title="48 heures">
+
+			<img data-speed="2" src="assets/images/48h-15.png">
+			<h1>Innondés de lumière ...</h1>
+
+		</section>
+		<section class="scrolling s1" id="informations" data-title="Informations">
+			<div class="container">
+
+				<h3>Qu'est-ce que c'est ?</h3>
+				<p>"La louange et la prière touche notre ville".</p>
+				<h3>Les invités</h3>
+				<p>à faire</p>
+				<h3>L'organisation</h3>
+				<p>à faire</p>
+
+			</div>
+		</section>
+		<section class="fixed f2" id="soon" data-title="Bientôt">
+
+			<h2>Bientôt : Programmation, liste d'invités complète, horaire, ...</h2>
+
+		</section>
+
+		<div id="scrollbar">
+		  <div id="scrollcursor">
+		  </div>
+		  <ul id="scrolllinks">
+		  </ul>
 		</div>
-		<div class="img">
-			<img src="assets/images/logo-cream.png">
-			<a href="http://eebulle.ch"><img src="assets/images/eebulle-cream.png"></a>
-		</div>
+
 	</body>
+
+	<script>
+    new Metroline();
+  </script>
+
 </html>
