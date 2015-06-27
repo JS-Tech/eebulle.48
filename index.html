@@ -1,11 +1,12 @@
 <!DOCTYPE html>
 <html>
 	<head>
-		<title>48 heures de louange et prière à Bulle</title>
+		<title data-i18n="title"></title>
 		<meta charset="utf-8" />
 		<link rel="stylesheet" type="text/css" href="assets/stylesheets/application.css">
 		<script src="assets/javascripts/jquery-2.1.4.min.js"></script>
 		<script src="assets/javascripts/metroline-0.0.3.min.js"></script>
+		<script src="assets/javascripts/i18next-1.10.1.min.js"></script>
 	</head>
 	<body>
 		<section class="fixed f1" id="48heures" data-title="48 heures">
@@ -45,6 +46,10 @@
 
 	<script>
     new Metroline();
+
+		i18n.init(function(err, t) {
+		  $("title").i18n();
+		});
   </script>
 
 </html>
