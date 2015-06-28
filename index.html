@@ -15,7 +15,7 @@
 			<h1 data-i18n="slogan"></h1>
 
 		</section>
-		<section class="scrolling s1" id="informations" data-title="Informations">
+		<section data-i18n="[data-title]menu.info;" class="scrolling s1" id="informations">
 			<div class="container">
 
 				<h3 data-i18n="info.1"></h3>
@@ -41,12 +41,15 @@
 	</body>
 
 	<script>
-    new Metroline();
 
 		i18n.init(function(err, t) {
+
 		  $("title").i18n();
 			$("body").i18n();
+			new Metroline();
+			
 		});
+
   </script>
 
 </html>
