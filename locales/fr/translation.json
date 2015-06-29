@@ -2,7 +2,9 @@
   "title": "48 heures de louange et prière à Bulle",
   "slogan": "Innondés de lumière ...",
   "menu": {
-    "info": "Informations"
+    "home": "48 Heures",
+    "info": "Informations",
+    "soon": "Bientôt"
   },
   "info": {
     "1": "Qu'est-ce que c'est ?",

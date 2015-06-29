@@ -9,7 +9,16 @@
 		<script src="assets/javascripts/i18next-1.10.1.min.js"></script>
 	</head>
 	<body>
-		<section class="fixed f1" id="48heures" data-title="48 heures">
+
+		<div class="translations">
+			<ul>
+				<li id="fr">FR</li> |
+				<li id="en">EN</li> |
+				<li id="es">ES</li>
+			</ul>
+		</div>
+
+		<section data-i18n="[data-title]menu.home;" class="fixed f1" id="48heures">
 
 			<img src="assets/images/48h-15.png">
 			<h1 data-i18n="slogan"></h1>
@@ -25,7 +34,7 @@
 
 			</div>
 		</section>
-		<section class="fixed f2" id="soon" data-title="Bientôt">
+		<section data-i18n="[data-title]menu.soon;" class="fixed f2" id="soon">
 
 			<h2 data-i18n="[html]soon"></h2>
 
@@ -42,13 +51,19 @@
 
 	<script>
 
-		i18n.init(function(err, t) {
+		i18n.init( { preload: ['fr','en','es'] }, function(err, t) {
 
-		  $("title").i18n();
-			$("body").i18n();
-			new Metroline();
-			
+		  load();
+			$("#fr").click(function(){ i18n.setLng('fr', function(err,t) { load(); }); });
+			$("#en").click(function(){ i18n.setLng('en', function(err,t) { load(); }); });
+			$("#es").click(function(){ i18n.setLng('es', function(err,t) { load(); }); });
+
 		});
+
+		function load() {
+			$("html").i18n();
+			new Metroline();
+		}
 
   </script>
 

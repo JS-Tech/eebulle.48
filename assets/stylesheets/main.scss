@@ -61,3 +61,19 @@ p {
 		padding: 0 10px;
 	}
 }
+
+.translations {
+	position: fixed;
+	top: 5px;
+	right: 5px;
+	z-index: 3;
+	background: rgba(255, 255, 255, 0.2);
+	ul li {
+		display: inline-block;
+		cursor: pointer;
+		&:hover {
+			text-decoration: underline;
+			font-weight: bold;
+		}
+	}
+}
