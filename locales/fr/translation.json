@@ -8,11 +8,19 @@
   },
   "info": {
     "1": "Qu'est-ce que c'est ?",
-    "2": "48 heures de louange et prière est un weekend durant lequel l'église héberge un lieu de louange non-stop. Des groupes de musciens se relaient durant les deux jours afin de mener l'assemblée dans un temps fort de connection avec Dieu. La vision des 48h de louange est de bénir la région par la présence de Dieu, car nous savons qu’Il siège dans la louange de son peuple (Ps 22 :4). Un tel événement amène également les participants à être encouragés et édifiés grâce à Dieu qui, par son Esprit, agit puissamment lorsque nous l’y invitons.",
+    "2": "48 heures de louange et prière est un weekend durant lequel l'église héberge un lieu de louange non-stop. Des groupes de musciens de tout horizon se relaient durant les deux jours afin de mener l'assemblée dans un temps fort de connection avec Dieu. La vision des 48h de louange est de bénir la région par la présence de Dieu, car nous savons qu’Il siège dans la louange de son peuple (Ps 22 :4). Un tel événement amène également les participants à être encouragés et édifiés grâce à Dieu qui, par son Esprit, agit puissamment lorsque nous l’y invitons.",
     "3": "L'organisation",
-    "4": "Les 48 heures se dérouleront du vendredi 16 octobre à 18h au dimanche suivant à 18h. Durant ce weekend, vous pouvez rejoindre l'événement quand vous le désirez. Le weekend est organisé par l'église évangélique de bulle (eebulle.ch) et se déroule dans ses locaux: Route du Verdel 8, 1630 Bulle.",
-    "5": "Envie de t'impliquer ?",
-    "6": "Ton aide est précieuse ! Etant donné l'ampleur de l'événement, nous sommes en effet à la recherche de bénévoles pour ce weekend. Tu as la possibilité de travailler dans plusieurs domaines comme l'accueil, le service de nourriture et ou encore le son et la projection. Tu peux t'inscire comme bénévole dans la branche qui te plaît et dans la tranche horaire qui te convient. Tu peux t'annoncer soit à l'église de Bulle ou envoyer un email à kocher.ke (at) gmail.com. Servir une ou plusieurs heures ne t'empêchera pas de profiter à fond du weekend, car celui-ci s'étend sur 48 heures avec de la louange non-stop ! Nous avons aussi besoin d'aide pour héberger les groupes de musiques qui viennent de l'étranger. Alors si tu as un peu de place chez toi, n'hésite pas à nous contacter !"
+    "4": "Les 48 heures se dérouleront du vendredi 16 octobre à 18h au dimanche suivant à 18h. Durant ce weekend, vous pouvez rejoindre l'événement quand vous le désirez. Le weekend est organisé par l'église évangélique de Bulle (eebulle.ch) et se déroule dans ses locaux: Route du Verdel 8, 1630 Bulle.",
+    "benevole": {
+      "title": "Envie de t'impliquer ?",
+      "1": "Ton aide est précieuse ! Etant donné l'ampleur de l'événement, nous sommes en effet à la recherche de bénévoles pour ce weekend.",
+      "2": "Tu as la possibilité de travailler dans plusieurs domaines comme .",
+      "3": "l'accueil",
+      "4": "le service de nourriture",
+      "5": "le son et la projection",
+      "6": "Tu peux t'inscire comme bénévole dans la branche qui te plaît et dans la tranche horaire qui te convient. Tu peux t'annoncer soit à l'église de Bulle ou envoyer un email à kocher.ke (at) gmail.com. Servir une ou plusieurs heures ne t'empêchera pas de profiter à fond du weekend, car celui-ci s'étend sur 48 heures avec de la louange non-stop !",
+      "7": "Nous avons aussi besoin d'aide pour héberger les groupes de musiques qui viennent de l'étranger. Alors si tu as un peu de place chez toi, n'hésite pas à nous contacter !"
+    }
   },
   "soon": "Reste connecté !<br> Bientôt le programme du weekend, les invités et plein d'autres informations !"
 }
