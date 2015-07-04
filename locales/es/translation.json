@@ -1,16 +1,26 @@
 {
   "title": "48 horas de alabanza y de oración en Bulle",
-  "slogan": "Inundado de luz ...",
+  "slogan": "Inundados de luz ...",
   "menu": {
     "home": "48 Horas",
     "info": "Informaciones",
-    "soon": "Bientôt"
+    "soon": "Pronto"
   },
   "info": {
     "1": "¿ Qué es eso ?",
-    "2": "48 horas de alabanza y de oración es un evento durante el fin de semana en el que nos reunimos para alabar sin fin. Des groupes de musciens se relaient durant les deux jours afin de mener l'assemblée dans un temps fort de connection avec Dieu.",
-    "3": "La organizacion",
-    "4": "Les 48 heures se dérouleront du vendredi 16 octobre à 18h au dimanche suivant à 18h. Durant ce weekend, vous pouvez rejoindre l'événement quand vous le désirez."
+    "2": "48 horas de alabanza y de oración es un evento durante el fin de semana en el que nos reunimos para alabar sin pausa. Bandas de músicos tocan por turnos durante dos días para guiar a los participantes por un momento fuerte de comunión con Dios. La visión del evento es bendecir la región con la presencia de Dios, porque sabemos que El habita en las alabanzas de su pueblo (Ps 22:3).También las 48 horas llevan a los participantes a ser animados y edificados por Dios que, a través de su Espíritu Santo, actua poderosamente mientras lo invitamos.",
+    "3": "Organización",
+    "4": "El evento es del viernes 16 de octubre a las 18 horas hasta el domingo próximo a las 18 horas. Se puede participar en cualquier momento durante el fin de semana. Está organizado por la iglesia evangélica de Bulle (eebulle.ch) y tiene lugar en sus locales: Route du Verdel 8, 1630 Bulle.",
+    "benevole": {
+      "title": "¿ Cómo ayudar ?",
+      "1": "Tu ayuda es preciosa. Justamente, por la extensión del evento, buscamos a voluntarios que nos puedan echar una mano.",
+      "2": "Nos puedes ayudar en los ámbitos siguientes :",
+      "3": "la acogida",
+      "4": "el servicio de comida",
+      "5": "la técnica (sonido y proyección)",
+      "6": "Puedes inscribirte como voluntario en el ámbito que te gusta y en el horario que te conviene. Avísalo a la iglesia de Bulle o envia un correo electrónico a kocher.ke (at) gmail.com. Servir una o varias horas no te impedirá que disfrutes del fin de semana a fondo, como está repartido sobre 48 horas, ¡ con alabanza sin pausa !",
+      "7": "También necesitamos a personas que alojen a los músicos del extranjero. Entonces si puedes dar alojamiento, ¡ por favor contáctanos!"
+    }
   },
-  "soon": "Reste connecté !<br> Bientôt le programme du weekend, les invités et plein d'autres informations !"
+  "soon": "¡ Quédate conectado !<br> Luego : el programa del fin de semana, los invitados y aún más informaciones."
 }
