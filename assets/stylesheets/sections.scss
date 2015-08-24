@@ -41,10 +41,20 @@ section {
     }
     &.f1 {
       background-image: url("../images/bg1.jpg");
+      h2 {
+        position: absolute;
+        top: 40px;
+        text-shadow: none;
+        font-size: 15px;
+        line-height: 25px;
+        a {
+          color: #000;
+        }
+      }
       h1 {
         top: 55%;
       }
-      img {
+      img.logo {
         max-width: 100%;
         position: absolute;
         left: 50%;
