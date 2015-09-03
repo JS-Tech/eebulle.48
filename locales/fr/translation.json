@@ -4,6 +4,7 @@
   "menu": {
     "home": "48 Heures",
     "info": "Informations",
+    "programme": "Programme",
     "soon": "Bientôt"
   },
   "info": {
@@ -21,6 +22,12 @@
       "6": "Tu peux t'inscrire comme bénévole dans la branche qui te plaît et dans la tranche horaire qui te convient. Tu peux t'annoncer soit à l'église de Bulle ou envoyer un email à kocher.ke (at) gmail.com. Servir une ou plusieurs heures ne t'empêchera pas de profiter à fond du weekend, car celui-ci s'étend sur 48 heures avec de la louange non-stop !",
       "7": "Nous avons aussi besoin d'aide pour héberger les groupes de musiques qui viennent de l'étranger. Alors si tu as un peu de place chez toi, n'hésite pas à nous contacter !"
     }
+  },
+  "programme": {
+    "vendredi": "vendredi",
+    "samedi": "samedi",
+    "dimanche": "dimache",
+    "nuit": "Espace Ouvert / Musique Pré-enregistrée"
   },
   "soon": "Reste connecté !<br> Bientôt le programme du weekend, les invités et plein d'autres informations !"
 }

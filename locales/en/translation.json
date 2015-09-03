@@ -4,6 +4,7 @@
   "menu": {
     "home": "48 Hours",
     "info": "Information",
+    "programme": "Programme",
     "soon": "Soon"
   },
   "info": {
@@ -21,6 +22,12 @@
       "6": "You can volunteer in any area of service that you want, and at any time of the weekend that suits you. To volunteer, contact the church of Bulle directly or send an email to kocher.ke (at) gmail.com. Helping out an hour or more will not keep you from enjoying the weekend, as it will last 48 hours with non-stop worshipping!",
       "7": "We are also looking for accomodation for the music groups coming from abroad. So if you have got any spare beds, please don’t hesitate to contact us !"
     }
+  },
+  "programme": {
+    "vendredi": "vendredi",
+    "samedi": "samedi",
+    "dimanche": "dimache",
+    "nuit": "Espace Ouvert / Musique Pré-enregistrée"
   },
   "soon": "Stay tuned !<br> Soon there will be more information !"
 }

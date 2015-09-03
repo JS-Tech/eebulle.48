@@ -4,6 +4,7 @@
   "menu": {
     "home": "48 Horas",
     "info": "Informaciones",
+    "programme": "Programme",
     "soon": "Pronto"
   },
   "info": {
@@ -21,6 +22,12 @@
       "6": "Puedes inscribirte como voluntario en el ámbito que te gusta y en el horario que te conviene. Avísalo a la iglesia de Bulle o envia un correo electrónico a kocher.ke (at) gmail.com. Servir una o varias horas no te impedirá que disfrutes del fin de semana a fondo, como está repartido sobre 48 horas, ¡ con alabanza sin pausa !",
       "7": "También necesitamos a personas que alojen a los músicos del extranjero. Entonces si puedes dar alojamiento, ¡ por favor contáctanos!"
     }
+  },
+  "programme": {
+    "vendredi": "friday",
+    "samedi": "saturday",
+    "dimanche": "sunday",
+    "nuit": "Open space / Pre-recorded music"
   },
   "soon": "¡ Quédate conectado !<br> Luego : el programa del fin de semana, los invitados y aún más informaciones."
 }
