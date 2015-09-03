@@ -24,10 +24,10 @@
     }
   },
   "programme": {
-    "vendredi": "vendredi",
-    "samedi": "samedi",
-    "dimanche": "dimache",
-    "nuit": "Espace Ouvert / Musique Pré-enregistrée"
+    "vendredi": "friday",
+    "samedi": "saturday",
+    "dimanche": "sunday",
+    "nuit": "Open space / Pre-recorded music"
   },
   "soon": "Stay tuned !<br> Soon there will be more information !"
 }
