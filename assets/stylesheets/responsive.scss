@@ -1,0 +1,41 @@
+// out: responsive.css
+
+/* http://getbootstrap.com/css/#responsive-utilities */
+/* Very Large devices */
+@media (max-width: 1435px)
+{
+
+}
+/* Large devices */
+@media (max-width: 1200px)
+{
+  .split3 {
+    width: 50%;
+  }
+}
+
+/* Medium devices */
+@media (max-width: 992px)
+{
+  .split3 {
+    width: 100%;
+  }
+}
+
+/* Small devices */
+@media (max-width: 768px)
+{
+
+}
+
+/* For home mapbox */
+@media (max-height: 600px)
+{
+
+}
+
+/* For login over */
+@media (max-height: 370px)
+{
+
+}

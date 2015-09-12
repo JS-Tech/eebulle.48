@@ -70,18 +70,13 @@ section {
     }
     &.f3 {
       background-image: url("../images/bg3.jpg");
-      height: 850px;
       h2 {
         top: 10%;
       }
       .days {
-        display: flex;
         margin: 0 0 0 140px;
         padding: 150px 0 0 0;
         .day {
-          height: 200px;
-          margin: auto;
-          min-width: 300px;
           table {
             line-height: 2em;
             tr {
