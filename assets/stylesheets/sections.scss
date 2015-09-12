@@ -98,6 +98,11 @@ section {
     line-height: 1.6;
     box-shadow: 0 0 50px rgba(0, 0, 0, 0.5);
     z-index: 2;
+    &.s2 {
+      img {
+        max-width: 100%;
+      }
+    }
     &.s3 {
       background-color: rgb(213, 33, 33);
       color: #fff;
