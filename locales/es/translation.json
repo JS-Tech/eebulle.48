@@ -5,7 +5,7 @@
     "home": "48 Horas",
     "info": "Informaciones",
     "programme": "Programme",
-    "soon": "Pronto"
+    "soon": "Social"
   },
   "info": {
     "1": "¿ Qué es eso ?",
@@ -29,5 +29,5 @@
     "dimanche": "sunday",
     "nuit": "Open space / Pre-recorded music"
   },
-  "soon": "¡ Quédate conectado !<br> Luego : el programa del fin de semana, los invitados y aún más informaciones."
+  "soon": "<a href=\"https://www.facebook.com/events/1667408996808412/\">Facebook event</a> !"
 }

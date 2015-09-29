@@ -5,7 +5,7 @@
     "home": "48 Heures",
     "info": "Informations",
     "programme": "Programme",
-    "soon": "Bientôt"
+    "soon": "Social"
   },
   "info": {
     "1": "Qu'est-ce que c'est ?",
@@ -29,5 +29,5 @@
     "dimanche": "dimache",
     "nuit": "Espace Ouvert / Musique Pré-enregistrée"
   },
-  "soon": "Reste connecté ! <br> Plus d'infos à venir en attendant, va t'inscrire sur l'<a href=\"https://www.facebook.com/events/1667408996808412/\">événement facebook</a> !"
+  "soon": "Va t'inscrire sur l'<a href=\"https://www.facebook.com/events/1667408996808412/\">événement facebook</a> !"
 }
