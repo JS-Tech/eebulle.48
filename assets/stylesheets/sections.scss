@@ -65,6 +65,31 @@ section {
         box-shadow: -9px 10px 10px rgba(76, 82, 87, 0.22);
       }
     }
+    &.f1-2 {
+      padding: 80px 0 20px 0;
+      h2 {
+        top: 40px;
+        color: #000;
+        text-shadow: none;
+      }
+      .groups {
+        &> div {
+          text-align: center;
+          padding: 0 0 30px 0;
+          transition: background 1s ease;
+          &:hover {
+            background: #FFEAC4;
+          }
+          img {
+            width: 300px;
+          }
+        }
+      }
+      .more {
+        text-align: center;
+        padding: 40px;
+      }
+    }
     &.f2 {
       background-image: url("../images/bg2.jpg");
     }
