@@ -1,0 +1,9 @@
+section {
+
+}
+  section.f1 {
+    background-image: url('../images/first-background.jpg');
+  }
+    section.f1 h1 {
+      font-family: 'Playfair Display', serif;
+    }
