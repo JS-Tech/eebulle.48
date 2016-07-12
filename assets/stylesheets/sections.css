@@ -2,8 +2,9 @@ section {
 
 }
   section.f1 {
-    background-image: url('../images/first-background.jpg');
+    background-image: url('../images/background.jpg');
   }
     section.f1 h1 {
-      font-family: 'Playfair Display', serif;
+      font-family: gentleman, sans-serif;
+      color: #fffb00 !important;
     }
