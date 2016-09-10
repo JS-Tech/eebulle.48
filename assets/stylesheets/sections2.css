@@ -17,6 +17,10 @@ section {
     background-image: url('../images/background3.jpg');
   }
 
+  section.f4 {
+    background-image: url('../images/background4.jpg');
+  }
+
 table.prog {
   border-collapse: collapse;
   width: 100%;
@@ -59,3 +63,7 @@ table.price {
   .one-pass2 {
     background: #8b8bfd;
   }
+
+.medias img {
+  max-width: 100%;
+}
