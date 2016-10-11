@@ -59,3 +59,7 @@ table.price {
   .one-pass2 {
     background: #8b8bfd;
   }
+
+.address {
+  margin: 20px 0 40px 0;
+}
