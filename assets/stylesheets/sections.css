@@ -24,6 +24,7 @@ section {
 table.prog {
   border-collapse: collapse;
   width: 100%;
+  overflow-x: scroll;
 }
 
   table.prog tr {
