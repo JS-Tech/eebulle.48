@@ -17,6 +17,10 @@ section {
     background-image: url('../images/background3.jpg');
   }
 
+  section.f4 {
+    background-image: url('../images/background4.jpg');
+  }
+
 table.prog {
   border-collapse: collapse;
   width: 100%;
@@ -36,6 +40,7 @@ table.prog {
   table.prog .night td {
     background: #514956;
     height: 10px;
+    color: #ffd700;
   }
 
 table.price {
@@ -60,6 +65,6 @@ table.price {
     background: #8b8bfd;
   }
 
-.address {
-  margin: 20px 0 40px 0;
+.medias img {
+  max-width: 100%;
 }
