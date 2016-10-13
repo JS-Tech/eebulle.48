@@ -38,6 +38,21 @@ table.prog {
     background: rgba(45, 42, 50, 0.1);
   }
 
+  table.prog tr td:nth-child(2) {
+    background-position: center left;
+    background-repeat: no-repeat;
+    padding: 0 0 0 25px;
+  }
+  table.prog tr.l td:nth-child(2) {
+    background-image: url('../images/icons/acoustic-guitar.png');
+  }
+  table.prog tr.i td:nth-child(2) {
+    background-image: url('../images/icons/favorite.png');
+  }
+  table.prog tr.a td:nth-child(2) {
+    background-image: url('../images/icons/painter-palette.png');
+  }
+
   table.prog .night td {
     background: #514956;
     height: 100px;
