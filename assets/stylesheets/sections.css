@@ -29,7 +29,12 @@ table.prog {
 
   table.prog tr {
     line-height: 4em;
+    transition: 1s;
   }
+  table.prog tr:hover {
+    background: rgba(0, 0, 255, 0.1) !important;
+  }
+
     table.prog tr td {
       padding: 2px 10px;
     }
