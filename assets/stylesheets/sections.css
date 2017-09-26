@@ -57,6 +57,9 @@ table.prog {
   table.prog tr.a td:nth-child(2) {
     background-image: url('../images/icons/painter-palette.png');
   }
+  table.prog tr.s td:nth-child(2) {
+    background-image: url('../images/icons/explosion.png');
+  }
 
   table.prog .night td {
     background: #514956;
