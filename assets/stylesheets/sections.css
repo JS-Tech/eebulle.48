@@ -35,6 +35,15 @@ table.prog {
     background: rgba(0, 0, 255, 0.1) !important;
   }
 
+  table.prog tr.kids {
+    line-height: 2em;
+    text-align: center;
+    color: #be55ff;
+  }
+    table.prog tr.kids img {
+      width: 32px;
+    }
+
     table.prog tr td {
       padding: 2px 10px;
     }
