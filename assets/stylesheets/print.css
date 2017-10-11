@@ -1,0 +1,9 @@
+@media print {
+  #scrollbar { display: none; }
+
+  section .container {
+    max-width: initial !important;
+    width: initial !important;
+  }
+
+}
