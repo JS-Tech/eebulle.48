@@ -6,4 +6,8 @@
     width: initial !important;
   }
 
+  section.scrolling {
+    padding: 0 !important;
+  }
+
 }
