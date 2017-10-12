@@ -44,6 +44,16 @@ table.prog {
       width: 32px;
     }
 
+  table.prog tr.food {
+    line-height: 2em;
+    text-align: center;
+    color: #ff6359;
+  }
+    table.prog tr.food img {
+      width: 32px;
+      vertical-align: middle;
+    }
+
   table.prog tr.day {
     background-color: transparent !important;
     font-weight: bold;
