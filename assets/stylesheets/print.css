@@ -8,6 +8,11 @@
 
   section.scrolling {
     padding: 0 !important;
+    box-shadow: none !important;
+  }
+
+  table.prog tr {
+    line-height: 3.4em !important;
   }
 
 }
