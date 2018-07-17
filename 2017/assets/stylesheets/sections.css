@@ -6,15 +6,15 @@ section {
   }
     section.f1 h1 {
       font-family: gentleman, sans-serif;
-      color: #e0cf80 !important;
+      color: #fffb00 !important;
     }
 
   section.f2 {
-    background-image: url('../images/background3.jpg');
+    background-image: url('../images/background2.jpg');
   }
 
   section.f3 {
-    background-image: url('../images/background2.jpg');
+    background-image: url('../images/background3.jpg');
   }
 
   section.f4 {
