@@ -1,101 +1,128 @@
 <!DOCTYPE html>
 
 <html>
-  <head>
-    <meta charset="utf-8">
 
-    <title>48 heures de louange et prières à Bulle</title>
-    <meta name="description" content="EEBulle 48 hours">
-    <meta name="author" content="EEBulle">
+<head>
+  <meta charset="utf-8">
 
-    <link rel="stylesheet" href="assets/stylesheets/_application.css">
-    <link rel="stylesheet" type="text/css" href="https://cdn.rawgit.com/JS-Tech/op-common/master/op-stylesheet.css">
+  <title>48 heures de louange et prières à Bulle</title>
+  <meta name="description" content="EEBulle 48 hours">
+  <meta name="author" content="EEBulle">
 
-    <script src="assets/javascripts/jquery-2.1.4.min.js"></script>
-    <script src="https://cdn.rawgit.com/nkcr/metroline.js/master/lib/metroline.min.js#1"></script>
+  <link rel="stylesheet" href="assets/stylesheets/_application.css">
+  <link rel="stylesheet" type="text/css" href="https://cdn.rawgit.com/JS-Tech/op-common/master/op-stylesheet.css">
 
-    <!-- Favicon stuff -->
-    <link rel="apple-touch-icon" sizes="57x57" href="assets/images/favicons/apple-touch-icon-57x57.png">
-    <link rel="apple-touch-icon" sizes="60x60" href="assets/images/favicons/apple-touch-icon-60x60.png">
-    <link rel="apple-touch-icon" sizes="72x72" href="assets/images/favicons/apple-touch-icon-72x72.png">
-    <link rel="apple-touch-icon" sizes="76x76" href="assets/images/favicons/apple-touch-icon-76x76.png">
-    <link rel="apple-touch-icon" sizes="114x114" href="assets/images/favicons/apple-touch-icon-114x114.png">
-    <link rel="apple-touch-icon" sizes="120x120" href="assets/images/favicons/apple-touch-icon-120x120.png">
-    <link rel="apple-touch-icon" sizes="144x144" href="assets/images/favicons/apple-touch-icon-144x144.png">
-    <link rel="apple-touch-icon" sizes="152x152" href="assets/images/favicons/apple-touch-icon-152x152.png">
-    <link rel="apple-touch-icon" sizes="180x180" href="assets/images/favicons/apple-touch-icon-180x180.png">
-    <link rel="icon" type="image/png" href="assets/images/favicons/favicon-32x32.png" sizes="32x32">
-    <link rel="icon" type="image/png" href="assets/images/favicons/android-chrome-192x192.png" sizes="192x192">
-    <link rel="icon" type="image/png" href="assets/images/favicons/favicon-96x96.png" sizes="96x96">
-    <link rel="icon" type="image/png" href="assets/images/favicons/favicon-16x16.png" sizes="16x16">
-    <link rel="manifest" href="assets/images/favicons/manifest.json">
-    <link rel="mask-icon" href="assets/images/favicons/safari-pinned-tab.svg" color="#5bbad5">
-    <link rel="shortcut icon" href="assets/images/favicons/favicon.ico">
-    <meta name="msapplication-TileColor" content="#da532c">
-    <meta name="msapplication-TileImage" content="assets/images/favicons/mstile-144x144.png">
-    <meta name="msapplication-config" content="assets/images/favicons/browserconfig.xml">
-    <meta name="theme-color" content="#ffffff">
+  <script src="assets/javascripts/jquery-2.1.4.min.js"></script>
+  <script src="https://cdn.rawgit.com/nkcr/metroline.js/master/lib/metroline.min.js#1"></script>
 
-    <!-- Mobile compatibility -->
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- Favicon stuff -->
+  <link rel="apple-touch-icon" sizes="57x57" href="assets/images/favicons/apple-touch-icon-57x57.png">
+  <link rel="apple-touch-icon" sizes="60x60" href="assets/images/favicons/apple-touch-icon-60x60.png">
+  <link rel="apple-touch-icon" sizes="72x72" href="assets/images/favicons/apple-touch-icon-72x72.png">
+  <link rel="apple-touch-icon" sizes="76x76" href="assets/images/favicons/apple-touch-icon-76x76.png">
+  <link rel="apple-touch-icon" sizes="114x114" href="assets/images/favicons/apple-touch-icon-114x114.png">
+  <link rel="apple-touch-icon" sizes="120x120" href="assets/images/favicons/apple-touch-icon-120x120.png">
+  <link rel="apple-touch-icon" sizes="144x144" href="assets/images/favicons/apple-touch-icon-144x144.png">
+  <link rel="apple-touch-icon" sizes="152x152" href="assets/images/favicons/apple-touch-icon-152x152.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="assets/images/favicons/apple-touch-icon-180x180.png">
+  <link rel="icon" type="image/png" href="assets/images/favicons/favicon-32x32.png" sizes="32x32">
+  <link rel="icon" type="image/png" href="assets/images/favicons/android-chrome-192x192.png" sizes="192x192">
+  <link rel="icon" type="image/png" href="assets/images/favicons/favicon-96x96.png" sizes="96x96">
+  <link rel="icon" type="image/png" href="assets/images/favicons/favicon-16x16.png" sizes="16x16">
+  <link rel="manifest" href="assets/images/favicons/manifest.json">
+  <link rel="mask-icon" href="assets/images/favicons/safari-pinned-tab.svg" color="#5bbad5">
+  <link rel="shortcut icon" href="assets/images/favicons/favicon.ico">
+  <meta name="msapplication-TileColor" content="#da532c">
+  <meta name="msapplication-TileImage" content="assets/images/favicons/mstile-144x144.png">
+  <meta name="msapplication-config" content="assets/images/favicons/browserconfig.xml">
+  <meta name="theme-color" content="#ffffff">
 
-    <!-- Analytics -->
-    <script>
-      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-      })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-      ga('create', 'UA-38967567-7', 'auto');
-      ga('send', 'pageview');
-    </script>
-  </head>
+  <!-- Mobile compatibility -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <body>
+  <!-- Analytics -->
+  <script>
+    (function (i, s, o, g, r, a, m) {
+    i['GoogleAnalyticsObject'] = r; i[r] = i[r] || function () {
+      (i[r].q = i[r].q || []).push(arguments)
+    }, i[r].l = 1 * new Date(); a = s.createElement(o),
+      m = s.getElementsByTagName(o)[0]; a.async = 1; a.src = g; m.parentNode.insertBefore(a, m)
+    })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
+    ga('create', 'UA-38967567-7', 'auto');
+    ga('send', 'pageview');
+  </script>
+</head>
 
-    <section data-title="Accueil" class="fixed f1" id="Accueil">
-      <img src="assets/images/logo special.png">
-      <h1><span>Mouvement</span> pour un <span>Changement</span></h1>
-      <p class="infos">
-        <a href="2017/index.html">Voir l'édition 2017</a> |
-        <a href="https://eebulle.ch">EEBulle</a>
+<body>
+
+  <section data-title="Accueil" class="fixed f1" id="Accueil">
+    <img src="assets/images/logo special.png">
+    <h1><span>Mouvement</span> pour un <span>Changement</span></h1>
+    <p class="infos">
+      <a href="2017/index.html">Voir l'édition 2017</a> |
+      <a href="https://eebulle.ch">EEBulle</a>
+    </p>
+  </section>
+
+  <section data-title="Description" class="scrolling s1" id="Description">
+    <div class="container">
+      <h2>L'événement des 48 heures</h2>
+      <p>
+        <b>48 heures de louange et prière</b> est un weekend durant lequel l'<a href="https://eebulle.ch">église
+          évangélique de Bulle</a> héberge un lieu de louange non-stop. Des groupes de musiciens de tout horizon se
+        relaient durant les deux jours afin de mener l'assemblée dans un temps fort de connexion avec Dieu. Nous vivons
+        également des temps d'intercession afin de porter devant Dieu les besoins du canton de Fribourg et au-delà!
       </p>
-    </section>
+      <p>
+        La vision des 48h de louange est de bénir la région par la présence de Dieu et nos prières, car nous savons
+        qu’Il siège dans la louange de son peuple (Ps 22:3). Un tel événement amène également les participants à être
+        encouragés et édifiés grâce à Dieu qui, par son Esprit, agit puissamment lorsque nous l’y invitons.
+      </p>
+      <p>
+        Venez quand vous voulez durant ces trois jours ! Nous recherchons également des bénévoles pour l'accueil, la
+        restauration et la technique.
+      </p>
+      <center class="address"><strong>Lieu</strong><br>Eglise évangélique de Bulle<br>Route du verdel 8<br>1630 Bulle</center>
+      <p>
+        <center><img src="assets/images/Bulle network.png"></center>
+      </p>
+      <p>
+        L'événement des 48 heures est organisé dans le cadre du <a href="http://network.eebulle.ch">Bulle network</a>,
+        un réseau d'églises présent à <a href="http://fribourg.eebulle.ch">Fribourg</a>, <a href="http://romont.eebulle.ch">Romont</a>
+        et <a href="http://rougemont.eebulle.ch">Rougemont</a>. Cet événement sera l'occasion d'avoir une rencontre
+        commune avec les églises du Bulle network.
+      </p>
+      <p>
+        <center><img src="assets/images/priere.png"></center>
+      </p>
+      <p>Cette année, la <a href="http://www.gebetskette.ch/">chaîne de prière pour la Suisse</a> est partenaire de
+        l'événement pour nous conduire dans des temps d'intercession.</p>
+      <p>
+        <center><img src="assets/images/myriade.jpg"></center>
+      </p>
+      <p>Nous aurons également un espace créatif, organisé en partenariat avec <a href="http://myriadecreations.com/">MyriAde
+          Créations.</a></p>
+      <p>
+        <center><img src="assets/images/kids.png"></center>
+      </p>
+      <p>Il y aura également un espace prévu pour les enfants ouvert 24h/24h et avec des temps d'activités créatives <i>Kid's
+          Time</i> (voir programme).</p>
+      <p>
+        <center><img src="assets/images/kidstime.jpg"></center>
+      </p>
+    </div>
+  </section>
 
-    <section data-title="Description" class="scrolling s1" id="Description">
-      <div class="container">
-        <h2>L'événement des 48 heures</h2>
-        <p>
-          <b>48 heures de louange et prière</b> est un weekend durant lequel l'<a href="https://eebulle.ch">église évangélique de Bulle</a> héberge un lieu de louange non-stop. Des groupes de musiciens de tout horizon se relaient durant les deux jours afin de mener l'assemblée dans un temps fort de connexion avec Dieu. Nous vivons également des temps d'intercession afin de porter devant Dieu les besoins du canton de Fribourg et au-delà!
-        </p>
-        <p>
-          La vision des 48h de louange est de bénir la région par la présence de Dieu et nos prières, car nous savons qu’Il siège dans la louange de son peuple (Ps 22:3). Un tel événement amène également les participants à être encouragés et édifiés grâce à Dieu qui, par son Esprit, agit puissamment lorsque nous l’y invitons.
-        </p>
-        <p>
-          Venez quand vous voulez durant ces trois jours ! Nous recherchons également des bénévoles pour l'accueil, la restauration et la technique.
-        </p>
-        <center class="address"><strong>Lieu</strong><br>Eglise évangélique de Bulle<br>Route du verdel 8<br>1630 Bulle</center>
-        <p><center><img src="assets/images/Bulle network.png"></center></p>
-        <p>
-          L'événement des 48 heures est organisé dans le cadre du <a href="http://network.eebulle.ch">Bulle network</a>, un réseau d'églises présent à <a href="http://fribourg.eebulle.ch">Fribourg</a>, <a href="http://romont.eebulle.ch">Romont</a> et <a href="http://rougemont.eebulle.ch">Rougemont</a>. Cet événement sera l'occasion d'avoir une rencontre commune avec les églises du Bulle network.
-        </p>
-        <p><center><img src="assets/images/priere.png"></center></p>
-        <p>Cette année, la <a href="http://www.gebetskette.ch/">chaîne de prière pour la Suisse</a> est partenaire de l'événement pour nous conduire dans des temps d'intercession.</p>
-        <p><center><img src="assets/images/myriade.jpg"></center></p>
-	      <p>Nous aurons également un espace créatif, organisé en partenariat avec <a href="http://myriadecreations.com/">MyriAde Créations.</a></p>
-        <p><center><img src="assets/images/kids.png"></center></p>
-        <p>Il y aura également un espace prévu pour les enfants ouvert 24h/24h et avec des temps d'activités créatives <i>Kid's Time</i> (voir programme).</p>
-        <p><center><img src="assets/images/kidstime.jpg"></center></p>
-      </div>
-    </section>
+  <section data-title="Programmation" class="fixed f2" id="Programmation">
+    <h1>Programmation</h1>
+  </section>
 
-    <section data-title="Programmation" class="fixed f2" id="Programmation">
-      <h1>Programmation</h1>
-    </section>
-
-    <section data-title="La programmation" class="scrolling s1" id="ProgrammationL">
-      <div class="container">
-        <center><h1>Programme prochainement!</h1></center>
-        <!--
+  <section data-title="La programmation" class="scrolling s1" id="ProgrammationL">
+    <div class="container">
+      <center>
+        <h1>Programme prochainement!</h1>
+      </center>
+      <!--
         <table class="prog">
           <tr class="day"><td colspan="4">Vendredi</td></tr>
           <tr class="l"><td>1600-1730</td><td>Louange</td><td>EEBulle mixte</td><td>Bulle (FR)</td></tr>
@@ -170,85 +197,91 @@
           <tr class="i"><td>1530-1600</td><td>Intercession</td><td>Pour la Suisse + l'Europe</td><td></td></tr>
 
         </table>-->
-      </div>
-    </section>
+    </div>
+  </section>
 
-    <section data-title="Prix" class="fixed f3" id="Prix">
-      <h1>Prix</h1>
-    </section>
+  <section data-title="Prix" class="fixed f3" id="Prix">
+    <h1>Prix</h1>
+  </section>
 
-    <section data-title="Les prix" class="scrolling" id="PrixL">
-      <div class="container">
-        <p>
-          Nous proposons un prix forfaitaire à l'entrée. Une fois celui-ci payé, il n'y a plus besoin de sortir son porte-monnaie à l'intérieur ! Le prix inclut les repas, les rafraîchissements, le thé/café, les snacks, etc. Il permet aussi de soutenir financièrement les groupes de louange qui viennent servir durant le week-end.
-          Plusieurs formules sont possibles suivant si vous participez à tout le week-end, à une jounée ou une partie de la journée.
-        </p>
-        <table class="price">
-          <tr>
-            <td></td>
-            <td>WE pass</td>
-            <td>One pass</td>
-          </tr>
-          <tr>
-            <td>Vendredi soir</td>
-            <td class="we-pass" rowspan="6">50 CHF</td>
-            <td class="one-pass">20 CHF</td>
-          </tr>
-          <tr>
-            <td>Samedi matin</td>
-            <td class="one-pass2" rowspan="3">20 CHF</td>
-          </tr>
-          <tr>
-            <td>Samedi après-midi</td>
-          </tr>
-          <tr>
-            <td>Samedi soir</td>
-          </tr>
-          <tr>
-            <td>Dimanche matin</td>
-            <td class="one-pass3" rowspan="2">10 CHF</td>
-          </tr>
-          <tr>
-            <td>Dimanche après-midi</td>
-          </tr>
-        </table>
+  <section data-title="Les prix" class="scrolling" id="PrixL">
+    <div class="container">
+      <p>
+        Nous proposons un prix forfaitaire à l'entrée. Une fois celui-ci payé, il n'y a plus besoin de sortir son
+        porte-monnaie à l'intérieur ! Le prix inclut les repas, les rafraîchissements, le thé/café, les snacks, etc. Il
+        permet aussi de soutenir financièrement les groupes de louange qui viennent servir durant le week-end.
+        Plusieurs formules sont possibles suivant si vous participez à tout le week-end, à une jounée ou une partie de
+        la journée.
+      </p>
+      <table class="price">
+        <tr>
+          <td></td>
+          <td>WE pass</td>
+          <td>One pass</td>
+        </tr>
+        <tr>
+          <td>Vendredi soir</td>
+          <td class="we-pass" rowspan="6">35 CHF</td>
+          <td class="one-pass">20 CHF</td>
+        </tr>
+        <tr>
+          <td>Samedi matin</td>
+          <td class="one-pass2" rowspan="3">15 CHF</td>
+        </tr>
+        <tr>
+          <td>Samedi après-midi</td>
+        </tr>
+        <tr>
+          <td>Samedi soir</td>
+        </tr>
+        <tr>
+          <td>Dimanche matin</td>
+          <td class="one-pass3" rowspan="2">10 CHF</td>
+        </tr>
+        <tr>
+          <td>Dimanche après-midi</td>
+        </tr>
+      </table>
 
-        <p><i>Payant à partir de 12 ans<br>Plafond de 150 CHF pour les familles (ménage)<br>Gratuit le dimanche matin</i></p>
-        <p><a href="assets/images/Grille des prix.pdf">Voir la grille PDF des prix</a>.</p>
+      <p><i>Payant à partir de 12 ans<br>Plafond de 150 CHF pour les familles (ménage)<br>Gratuit le dimanche matin</i></p>
+      <p><a href="assets/images/Grille des prix.pdf">Voir la grille PDF des prix</a>.</p>
 
-        <p><center><img src="assets/images/foods.png"></center></p>
-        <p>Durant tout le week-end, il y aura possibilité de se restaurer. Aux heures de repas, un service sera présent et le reste de temps collations et boissons seront à disposition. Le tout est compris dans le prix d'entrée.</p>
-      </div>
-    </section>
+      <p>
+        <center><img src="assets/images/foods.png"></center>
+      </p>
+      <p>Durant tout le week-end, il y aura possibilité de se restaurer. Aux heures de repas, un service sera présent
+        et le reste de temps collations et boissons seront à disposition. Le tout est compris dans le prix d'entrée.</p>
+    </div>
+  </section>
 
-    <section data-title="Médias" class="fixed f4" id="Medias">
-      <h1>Médias</h1>
-    </section>
+  <section data-title="Médias" class="fixed f4" id="Medias">
+    <h1>Médias</h1>
+  </section>
 
-    <section data-title="Les médias" class="scrolling medias" id="MediasL">
-      <div class="container">
-        <h2>Flyer</h2>
-        <p><img src="assets/images/flyer.jpg"></p>
-        <h2>Logo</h2>
-        <p><img src="assets/images/logo 500.png"></p>
-        <h2>Liens</h2>
-        <p><a href="https://eebulle.ch">Eglise évangélique de Bulle</a></p>
-      </div>
-    </section>
+  <section data-title="Les médias" class="scrolling medias" id="MediasL">
+    <div class="container">
+      <h2>Flyer</h2>
+      <p><img src="assets/images/flyer.jpg"></p>
+      <h2>Logo</h2>
+      <p><img src="assets/images/logo 500.png"></p>
+      <h2>Liens</h2>
+      <p><a href="https://eebulle.ch">Eglise évangélique de Bulle</a></p>
+    </div>
+  </section>
 
-    <!-- scrollbar scaffold (do not touch!) -->
-		<div id="scrollbar">
-		  <div id="scrollcursor">
-		  </div>
-		  <ul id="scrolllinks">
-		  </ul>
-		</div>
+  <!-- scrollbar scaffold (do not touch!) -->
+  <div id="scrollbar">
+    <div id="scrollcursor">
+    </div>
+    <ul id="scrolllinks">
+    </ul>
+  </div>
 
-  </body>
+</body>
 
-  <script>
-    // fire metroline
-    $(window).load(function(){ new Metroline(); });
-  </script>
+<script>
+  // fire metroline
+  $(window).load(function () { new Metroline(); });
+</script>
 
 </html>
