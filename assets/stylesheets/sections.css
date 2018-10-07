@@ -28,8 +28,8 @@ table.prog {
 }
 
   table.prog tr {
-    line-height: 4em;
-    transition: 1s;
+    line-height: 3.1em;
+    transition: .5s;
   }
   table.prog tr:hover {
     background: rgba(0, 0, 255, 0.1) !important;
@@ -45,7 +45,7 @@ table.prog {
     }
 
   table.prog tr.food {
-    line-height: 2em;
+    line-height: 3em;
     text-align: center;
     color: #ff6359;
   }
@@ -72,16 +72,29 @@ table.prog {
     background: rgba(45, 42, 50, 0.1);
   }
 
+  table.prog tr:not(.day, .night) td:nth-child(1) {
+    font-family: monospace;
+    letter-spacing: 2px;
+  }
   table.prog tr td:nth-child(2) {
     background-position: center left;
     background-repeat: no-repeat;
     padding: 0 0 0 25px;
   }
-  table.prog tr.l td:nth-child(2) {
-    background-image: url('../images/icons/acoustic-guitar.png');
+  table.prog tr td:nth-child(3) {
+    vertical-align: top;
   }
-  table.prog tr.i td:nth-child(2) {
-    background-image: url('../images/icons/favorite.png');
+  span.l {
+    content: url('../images/icons/acoustic-guitar.png');
+    padding: 0 10px 0 0;
+  }
+  span.i {
+    content: url('../images/icons/favorite.png');
+    padding: 0 10px 0 0;
+  }
+  span.g {
+    content: url('../images/icons/healing.png');
+    padding: 0 10px 0 0;
   }
   table.prog tr.a td:nth-child(2) {
     background-image: url('../images/icons/painter-palette.png');
