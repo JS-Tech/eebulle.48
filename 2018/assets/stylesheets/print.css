@@ -1,0 +1,18 @@
+@media print {
+  #scrollbar { display: none; }
+
+  section .container {
+    max-width: initial !important;
+    width: initial !important;
+  }
+
+  section.scrolling {
+    padding: 0 !important;
+    box-shadow: none !important;
+  }
+
+  table.prog tr {
+    line-height: 3em !important;
+  }
+
+}
